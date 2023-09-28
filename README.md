@@ -64,9 +64,9 @@ class TestEmployee
 {
     public static void Main(string[] args)
     {
-        Employee e1 = new Employee("Leann", "HR", 7, 30000, 1000);
+        Employee e1 = new Employee("JOHN", "HR", 7, 30000, 1000);
         e1.salary();
-        Employee e2 = new Employee("Teja", "Analyst", 9, 25000, 1000);
+        Employee e2 = new Employee("PRAVEEN", "Analyst", 9, 25000, 1000);
         e2.salary();
         e1.display();
         e2.display();
@@ -75,7 +75,7 @@ class TestEmployee
 }
 ```
 ## Output:
-![Uploading image.png…]()
+![image](https://github.com/JEGADEESH07/Ex04-Constructor/assets/113497131/cf35acdb-dcac-4a39-b8b6-0ba223727780)
 
  ## Result:
  Thus C# program to calculate the salary of an employee by passing the name, designation, noofexperience, basic salary and insurance amount through constructor is executed successfully.
